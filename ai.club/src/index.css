@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100vh; 
+  color: #fff;
+  background-position: center;
+  background-image: url(https://i.ibb.co/R0sBP1d/gradient-network-connection-background-23-2148876598-removebg-preview.png);
+  color: white;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  margin-top:-2%;
+}
+
+header > img {
+  border-radius: 50%;
+  height: 6%;
+  width: 6%;
+  margin-left: 1%;
+}
+header > a {
+  text-decoration: none;
+  font-weight: light;
+  font-size: 120%;
+  text-align: center;
+  color: white;
+}
+header {
+  position: fixed;
+  margin-top: 3%;
+  font-family: 'Inter', sans-serif;
+  font-weight: light;
+  font-size: 90%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5%;
+  box-shadow: inset;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.body > h1{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 400%;
+}
+.body > p , #contact > h2{
+  width: 750px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 150%;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 2px;
+  font-size: 120%;
+  color: #D8DEE3; 
+  margin-top: -1%;
+}
+.body > button {
+  border-radius: 24px;
+  width: 10%;
+  height: 7%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+  font-family: 'Inter', sans-serif;
+  background-color: #F0F3BD;
+  color: black;
+}
+.body > button > a , #register > button > a{
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.post{
+  border: none;
+  border-radius: 12px;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+}
+
+#rest{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 70px;
+  margin-left: 8%;
+}
+
+.picture  {
+  height: 75%;
+  width: 60%;
+  border-radius: 50%;
+
+}
+.role{
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 1.5px;
+  margin-top: -2.5%;
+}
+.name {
+  font-family: 'Inter', sans-serif;
+  font-weight: light;
+  font-size: 110%;
+  color: #F0F3BD;
+
+}
+#board > h1 {
+  color: #3671CC;
+  font-family: 'Rubik Doodle Shadow';
+  font-size: 300%;
+  text-align: center;
+}
+#register {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+#register > h1 {
+  font-family: 'Rubik Doodle Shadow';
+  font-weight: light;
+  font-size: 300%;
+  color: #3671CC ;
+}
+#register > button {
+  border: none;
+  border-radius: 24px;
+  width: 10%;
+  height: 22%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+  font-family: 'Inter', sans-serif;
+  background-color: #F0F3BD;
+  color: black;
+}
+#contact{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.icons{
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.big {
+  height: 40px;
+  width: 40px;
+}
+ .small {
+  height: 70px;
+  width: 70px;
+}
+#discord{
+  width: 60px;
+}
